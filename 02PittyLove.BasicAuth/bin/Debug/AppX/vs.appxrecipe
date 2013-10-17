@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BRETTEWIN8</Machine>
+    <WindowsUser>Brette</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>17CA8E4AA7E6FEB988AAE1653BA663F8B047D521797A35BBA9E1D9EC2A8A1578</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>40171659-7c52-403b-aa70-5c68d706259f_1.0.0.0_neutral__rn3qtf6qhtm14</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>40171659-7c52-403b-aa70-5c68d706259f_rn3qtf6qhtm14!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>40171659-7c52-403b-aa70-5c68d706259f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Brette</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-14T18:29:37.915</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\bin\Debug\02PittyLove.WinRT2.exe">
+      <PackagePath>02PittyLove.WinRT2.exe</PackagePath>
+      <Modified>2013-09-14T18:29:37.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\bin\Debug\02PittyLove.WinRT2.pdb">
+      <PackagePath>02PittyLove.WinRT2.pdb</PackagePath>
+      <Modified>2013-09-14T18:29:37.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\packages\Prism.StoreApps.1.0.1\lib\windows8\Microsoft.Practices.Prism.StoreApps.dll">
+      <PackagePath>Microsoft.Practices.Prism.StoreApps.dll</PackagePath>
+      <Modified>2013-09-02T19:49:23.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\packages\Unity.3.0.1304.1\lib\NetCore45\Microsoft.Practices.Unity.NetCore.dll">
+      <PackagePath>Microsoft.Practices.Unity.NetCore.dll</PackagePath>
+      <Modified>2013-09-02T20:02:56.246</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\packages\Newtonsoft.Json.5.0.6\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2013-09-02T20:27:49.641</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\Assets\jibboombio.jpg">
+      <PackagePath>Assets\jibboombio.jpg</PackagePath>
+      <Modified>2013-09-02T20:30:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\Assets\olive_face.jpg">
+      <PackagePath>Assets\olive_face.jpg</PackagePath>
+      <Modified>2013-09-02T20:30:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\Assets\oscarsmile.jpg">
+      <PackagePath>Assets\oscarsmile.jpg</PackagePath>
+      <Modified>2013-09-02T20:30:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2013-09-02T20:19:11.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-09-02T21:12:29.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2013-09-02T21:12:29.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\bin\Debug\Views\EditFlyout.xaml">
+      <PackagePath>Views\EditFlyout.xaml</PackagePath>
+      <Modified>2013-09-02T21:28:27.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\bin\Debug\Views\MainPage.xaml">
+      <PackagePath>Views\MainPage.xaml</PackagePath>
+      <Modified>2013-09-02T20:43:27.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.BasicAuth\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-09-14T18:29:37.381</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

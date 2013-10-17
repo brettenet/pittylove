@@ -1,0 +1,6 @@
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\03PittyLove.ApiKeyAuth\bin\Debug\03PittyLove.ApiKeyAuth.exe.config
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\03PittyLove.ApiKeyAuth\bin\Debug\03PittyLove.ApiKeyAuth.exe
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\03PittyLove.ApiKeyAuth\bin\Debug\03PittyLove.ApiKeyAuth.pdb
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\03PittyLove.ApiKeyAuth\obj\Debug\03PittyLove.ApiKeyAuth.exe
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\03PittyLove.ApiKeyAuth\obj\Debug\03PittyLove.ApiKeyAuth.pdb
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\03PittyLove.ApiKeyAuth\obj\Debug\03PittyLove.ApiKeyAuth.csprojResolveAssemblyReference.cache

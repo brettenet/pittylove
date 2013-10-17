@@ -1,0 +1,43 @@
+﻿@model PittyLove.FormsAuth.Models.LoginModel
+
+@{
+    ViewBag.Title = "Log in";
+}
+
+<hgroup class="title">
+    <h1>Please Supply a Username and Password</h1>
+</hgroup>
+
+@using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+       
+               
+    <fieldset>
+        <legend>Pitbull</legend>
+        <input data-val="true" data-val-number="The field Id must be a number." data-val-required="The Id field is required."
+            id="Id" name="Id" type="hidden" value="1" />
+        <div class="editor-label">
+            <label class="required" for="Username">
+                Username</label>
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(m => m.UserName)
+        </div>
+        <div class="editor-label">
+            <label class="required" for="Password">
+                Password</label>
+        </div>
+        <div class="editor-field">
+            @Html.PasswordFor(m => m.Password)
+        </div>
+        <input type="button" id="cancelButton" value="Cancel" />
+        <input type="submit" id="saveButton" value="Login" />
+    </fieldset>
+        
+    <p>
+        @Html.ActionLink("Register", "Register") if you don't have an account.
+    </p>
+}
+

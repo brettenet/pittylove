@@ -1,0 +1,62 @@
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\PittyLove.Model.dll.config
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\PittyLove.Model.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\PittyLove.Model.pdb
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\EntityFramework.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\FluentValidation.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\EntityFramework.xml
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\FluentValidation.pdb
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\FluentValidation.xml
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\de\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\es\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\fr\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\it\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\nl\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\pl\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\pt\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\ru\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\sv\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\bin\Debug\tr\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\obj\Debug\PittyLove.Model.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\obj\Debug\PittyLove.Model.pdb
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Web API\Code\PittyLove\PittyLove.Model\obj\Debug\PittyLove.Model.csprojResolveAssemblyReference.cache
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\PittyLove.Model.dll.config
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\PittyLove.Model.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\PittyLove.Model.pdb
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\EntityFramework.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\FluentValidation.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\EntityFramework.xml
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\FluentValidation.pdb
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\FluentValidation.xml
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\de\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\es\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\fr\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\it\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\nl\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\pl\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\pt\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\ru\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\sv\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\bin\Debug\tr\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\obj\Debug\PittyLove.Model.csprojResolveAssemblyReference.cache
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\obj\Debug\PittyLove.Model.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code\PittyLove\PittyLove.Model\obj\Debug\PittyLove.Model.pdb
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\PittyLove.Model.dll.config
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\PittyLove.Model.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\PittyLove.Model.pdb
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\EntityFramework.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\FluentValidation.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\EntityFramework.xml
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\FluentValidation.pdb
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\FluentValidation.xml
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\de\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\es\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\fr\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\it\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\nl\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\pl\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\pt\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\ru\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\sv\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\bin\Debug\tr\FluentValidation.resources.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\obj\Debug\PittyLove.Model.dll
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.Model\obj\Debug\PittyLove.Model.pdb

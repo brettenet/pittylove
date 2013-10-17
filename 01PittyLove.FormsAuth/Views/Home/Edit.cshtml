@@ -1,0 +1,153 @@
+﻿@{
+    ViewBag.Title = "Judge the Deed not the Breed";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    <!-- This div will act as a dialog to host the pitbull editor template -->
+    <div id="editDogDialog" title="Basic dialog" style="margin: auto">
+        <div id="pitbullEditorContainer">
+        </div>
+    </div>
+
+    <!-- Ordered list to hold the list items -->
+    <ol class="round" id="pitListContainer">
+    </ol>
+
+    <!-- List Item Template -->
+    <script id="pitbullListTemplate" type="text/x-jquery-tmpl"> 
+    
+        <div class="post-container">
+            <div class="post-thumb">
+                <img src="${ImageUrl}" height=""/></div>
+            <div class="post-content">
+                <h2>
+                    ${Name}</h2>
+                <p>
+                    ${Description}
+                </p>
+                <div class="post-links"><a id="editDog_${Id}" href="#">Edit</a>
+                </div>
+            </div>
+        </div>
+
+    </script>
+
+    <!--Pitbull Editor Template -->
+    <script id="pitbullEditorTemplate" type="text/x-jquery-tmpl"> 
+        <form id="pitbullEditorForm">
+            <h2>
+                Edit (${Name})</h2>
+            <fieldset>
+                <legend>Pitbull</legend>
+                <input data-val="true" data-val-number="The field Id must be a number." data-val-required="The Id field is required."
+                       id="Id" name="Id" type="hidden" value="1" />
+                <div class="editor-label">
+                    <label class="required" for="Name">
+                        Name</label>
+                </div>
+                <div class="editor-field">
+                    <input class="text-box single-line" id="name" name="Name" type="text" value="${Name}" data-val="true" data-val-required="Name is required"/>
+                    <span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"/>
+                </div>
+                <div class="editor-label">
+                    <label class="required" for="ImageUrl">
+                        ImageUrl</label>
+                </div>
+                <div class="editor-field">
+                    <input id="ImageUrl" name="ImageUrl" type="text" value="${ImageUrl}" />
+                    <span class="field-validation-valid" data-valmsg-for="ImageUrl" data-valmsg-replace="true">
+                    </span>
+                </div>
+                <div class="editor-label">
+                    <label class="required textarea" for="Description">
+                        Description</label>
+                </div>
+                <div class="editor-field">
+                    <textarea cols="80" id="Description" name="Description" rows="10">${Description}</textarea>
+                    <span class="field-validation-valid" data-valmsg-for="Description" data-valmsg-replace="true">
+                    </span>
+                </div>
+                <input type="button" id="cancelButton" value="Cancel" />
+                <input type="submit" id="saveButton" value="Save" />
+            </fieldset>
+        </form>
+    </script>
+
+    <!-- Call Service and Render Template -->
+    <script type="text/javascript">
+
+        //Execute after the get request returns
+        function pitbullsLoaded(pitbullList) {
+
+            //First render the list of dogs template
+            $("#pitListContainer").html("");
+            $("#pitbullListTemplate")
+                .tmpl(pitbullList)
+                .appendTo($("#pitListContainer"));
+
+            //Select 'edit' links and add click handler
+            $('#pitListContainer a[id^="editDog_"]').click(function (e) {
+
+                e.preventDefault();
+                presentPitbullEditorDialog(e);
+
+            });
+        }
+
+        //Presents the editor dialog
+
+        function presentPitbullEditorDialog(e) {
+
+            $("#editDogDialog").dialog({
+                height: 435,
+                width: 700,
+                modal: true,
+                resizable: false,
+                movable: false,
+                title: 'Edit Dog',
+                close: function () {
+                    $.getJSON("/api/pitbull", pitbullsLoaded);
+                },
+                open: function () {
+                    //Ajax call a single dog
+                    $.getJSON('/api/pitbull/' + e.target.id.split("_")[1], function (pitbull) {
+
+                        //Render the pitbull list template when dialog is opened
+                        $("#pitbullEditorContainer").html("");
+                        $("#pitbullEditorTemplate")
+                                    .tmpl(pitbull)
+                                    .appendTo($("#pitbullEditorContainer"));
+
+                        //Close dialog on cancel.
+                        $('#cancelButton').click(function () {
+                            $('#editDogDialog').dialog('close');
+                        });
+
+                        //Save changes when save is clicked
+                        $('#pitbullEditorForm').submit(function (submitEvent) {
+
+                            submitEvent.preventDefault();
+
+                            /*
+                            This will update the dog using a put
+                            */
+                            $.ajax({
+                                url: "/api/pitbull/" + e.target.id.split("_")[1],
+                                type: "PUT",
+                                data: $("form").serialize(),
+                                statusCode: {
+                                    200: function () {
+                                        $('#editDogDialog').dialog('close');
+                                    }
+                                }
+                            });
+                        });
+                    });
+                }
+            });
+        }
+
+        $.getJSON("/api/pitbull", pitbullsLoaded);
+
+    </script>
+}

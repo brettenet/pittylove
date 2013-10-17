@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PittyLoveModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="PittyLoveModelStoreContainer">
+    <EntitySet Name="Devices" EntityType="PittyLoveModel.Store.Devices" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Pitty" EntityType="PittyLoveModel.Store.Pitty" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserProfile" EntityType="PittyLoveModel.Store.UserProfile" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Devices">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PublicKey" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="PrivateKey" Type="varchar" Nullable="false" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Pitty">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Description" Type="varchar(max)" Nullable="false" />
+    <Property Name="ImageUrl" Type="varchar" Nullable="false" MaxLength="2000" />
+    <Property Name="LastFed" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="nvarchar(max)" />
+  </EntityType>
+</Schema>

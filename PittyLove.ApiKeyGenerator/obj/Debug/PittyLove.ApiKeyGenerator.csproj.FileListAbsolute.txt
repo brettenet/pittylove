@@ -1,0 +1,6 @@
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.ApiKeyGenerator\bin\Debug\PittyLove.ApiKeyGenerator.exe.config
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.ApiKeyGenerator\bin\Debug\PittyLove.ApiKeyGenerator.exe
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.ApiKeyGenerator\bin\Debug\PittyLove.ApiKeyGenerator.pdb
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.ApiKeyGenerator\obj\Debug\PittyLove.ApiKeyGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.ApiKeyGenerator\obj\Debug\PittyLove.ApiKeyGenerator.exe
+C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\PittyLove.ApiKeyGenerator\obj\Debug\PittyLove.ApiKeyGenerator.pdb

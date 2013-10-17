@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BRETTEWIN8</Machine>
+    <WindowsUser>Brette</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\bin\Debug\02PittyLove.WinRT2.exe">
+      <PackagePath>02PittyLove.WinRT2.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\bin\Debug\02PittyLove.WinRT2.pdb">
+      <PackagePath>02PittyLove.WinRT2.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\packages\Prism.StoreApps.1.0.1\lib\windows8\Microsoft.Practices.Prism.StoreApps.dll">
+      <PackagePath>Microsoft.Practices.Prism.StoreApps.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\packages\Unity.3.0.1304.1\lib\NetCore45\Microsoft.Practices.Unity.NetCore.dll">
+      <PackagePath>Microsoft.Practices.Unity.NetCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\packages\Newtonsoft.Json.5.0.6\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\Assets\jibboombio.jpg">
+      <PackagePath>Assets\jibboombio.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\Assets\olive_face.jpg">
+      <PackagePath>Assets\olive_face.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\Assets\oscarsmile.jpg">
+      <PackagePath>Assets\oscarsmile.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\bin\Debug\Views\EditFlyout.xaml">
+      <PackagePath>Views\EditFlyout.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\bin\Debug\Views\MainPage.xaml">
+      <PackagePath>Views\MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brette\Dropbox\Brette.Net\Presentations\Securing ASP.NET Web API\Code_2013\PittyLove\02PittyLove.WinRT2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

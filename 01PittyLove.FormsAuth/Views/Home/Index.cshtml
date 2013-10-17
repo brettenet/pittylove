@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Judge the Deed not the Breed";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- ordered list to hold the list items -->
+<ol class="round" id="pitListContainer"></ol>
+
+<!-- List Item Template -->
+<script id="pitbullListTemplate" type="text/x-jquery-tmpl">
+
+    <div class="post-container">
+        <div class="post-thumb">
+            <img src="${ImageUrl}" height="" />
+        </div>
+        <div class="post-content">
+            <h2>
+                ${Name}
+            </h2>
+            <p>
+                ${Description}
+            </p>
+        </div>
+    </div>
+
+</script>
+
+<!-- Call Service and Render Template -->
+<script type="text/javascript">
+
+    //This function renders the pitbull list template
+    function renderPitbullListTemplate(pitbullList) {
+
+        $("#pitListContainer").html("");
+        $("#pitbullListTemplate")
+            .tmpl(pitbullList)
+            .appendTo($("#pitListContainer"));
+
+    }
+
+    //Call http service using jquery get
+    $.getJSON("api/pitbull", renderPitbullListTemplate);
+
+</script>
+
